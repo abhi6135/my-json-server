@@ -1,14 +1,35 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "job-renew": [
+    {
+      "id": 1,
+      "jobId": 12345,
+      "status": "success",
+      "message": "Job renewed successfully"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "credit-renew": [
+    {
+      "id": 1,
+      "employerId": 987,
+      "creditsAdded": 50,
+      "status": "success",
+      "message": "Credits renewed successfully"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "subscription-renew": [
+    {
+      "id": 1,
+      "subscriptionId": "sub_456",
+      "status": "active",
+      "renewedUntil": "2026-12-31"
+    }
+  ],
+  "ignore-notification": [
+    {
+      "id": 1,
+      "notificationId": "notif_789",
+      "status": "ignored",
+      "message": "Notification ignored successfully"
+    }
+  ]
 }
